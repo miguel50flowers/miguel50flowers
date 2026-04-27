@@ -77,9 +77,9 @@ Also working with: Shopify (GraphQL/REST/Liquid) · Remix · Hono · Express · 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=miguel50flowers&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true&rank_icon=github" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=miguel50flowers&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" />
-    <img src="https://github-readme-stats.vercel.app/api?username=miguel50flowers&show_icons=true&hide_border=true&theme=tokyonight&include_all_commits=true&count_private=true&rank_icon=github" alt="GitHub stats card" height="170" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=miguel50flowers&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=miguel50flowers&show_icons=true&hide_border=true&rank_icon=github" />
+    <img src="https://github-readme-stats.vercel.app/api?username=miguel50flowers&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub stats card" height="170" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=miguel50flowers&layout=compact&hide_border=true&theme=tokyonight&langs_count=8&hide=html,css,scss" />
@@ -98,12 +98,15 @@ Also working with: Shopify (GraphQL/REST/Liquid) · Remix · Hono · Express · 
 
 ---
 
-## Achievements
+## Activity insights / Mi actividad
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=miguel50flowers&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="GitHub trophies" />
-  </a>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=miguel50flowers&theme=tokyonight" alt="Repositories grouped by primary language" height="180" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=miguel50flowers&theme=tokyonight&utcOffset=-5" alt="Productive coding hours by time of day" height="180" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=miguel50flowers&theme=tokyo-night&hide_border=true&area=true&radius=8&custom_title=Contribution+activity+last+year" alt="Contribution activity over the last year (line graph)" />
 </p>
 
 ---
