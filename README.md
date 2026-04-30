@@ -208,9 +208,9 @@ Languages: **Python · TypeScript · Node**. Cloud: **S3 · Lambda · CloudWatch
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=miguel50flowers&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github&include_all_commits=true&count_private=true" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=miguel50flowers&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=true" />
-    <img src="https://github-readme-stats.vercel.app/api?username=miguel50flowers&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github&include_all_commits=true&count_private=true" alt="GitHub stats card" height="170" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=miguel50flowers&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=miguel50flowers&show_icons=true&hide_border=true&rank_icon=github" />
+    <img src="https://github-readme-stats.vercel.app/api?username=miguel50flowers&show_icons=true&hide_border=true&theme=tokyonight&rank_icon=github" alt="GitHub stats card" height="170" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=miguel50flowers&layout=compact&hide_border=true&theme=tokyonight&langs_count=10&hide=html,css,scss" />
