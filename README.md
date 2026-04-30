@@ -24,7 +24,7 @@
 
 I'm Miguel — a senior full-stack engineer based in **Quito, Ecuador**, with **10+ years** shipping production software across e-commerce, B2B platforms, AWS serverless, image pipelines, and macOS/ML tooling.
 
-I currently lead backend and image-pipeline work for **[Farm Exports](https://farmexports.com)** (B2B floral wholesale on Shopify, migrating from Komet Sales to a custom internal platform — *Bloom Brain*), and have shipped **5 Shopify embedded apps**, **9+ AWS Lambdas**, **11+ event-driven services**, and **6 Liquid themes** — most of it within the **[@fifty-git](https://github.com/fifty-git)** organization (Farm Exports, **FlowerFix** / theflowerfix.myshopify.com, and related brands).
+I currently lead backend and image-pipeline work for a **B2B floral-wholesale platform on Shopify** (migrating off a legacy industry SaaS to a custom internal PIM/OMS), and have shipped **5 Shopify embedded apps**, **9+ AWS Lambdas**, **11+ event-driven services**, and **6 Liquid themes** across a portfolio of related Shopify storefronts — see *Brands* below.
 
 On the side I publish small open-source utilities for problems I personally hit, and explore game dev (Godot, Pygame), AI tooling (ComfyUI pipelines, local LLMs) and ML/NLP (CV classification, watermark detection).
 
@@ -37,7 +37,7 @@ I care about **well-typed, well-logged, well-tested software that ships**.
 
 Soy Miguel — ingeniero full-stack senior en **Quito, Ecuador**, con **10+ años** entregando software a producción en e-commerce, plataformas B2B, AWS serverless, pipelines de imagen y herramientas macOS/ML.
 
-Actualmente lidero backend y pipelines de imagen para **[Farm Exports](https://farmexports.com)** (B2B floral wholesale sobre Shopify, migrando de Komet Sales a una plataforma propia — *Bloom Brain*). He entregado **5 Shopify embedded apps**, **9+ AWS Lambdas**, **11+ servicios event-driven** y **6 themes Liquid** — la mayoría dentro de la organización **[@fifty-git](https://github.com/fifty-git)** (Farm Exports, **FlowerFix** / theflowerfix.myshopify.com y marcas relacionadas).
+Actualmente lidero backend y pipelines de imagen para una **plataforma B2B floral-wholesale sobre Shopify** (migrando de un SaaS legacy de la industria a un PIM/OMS interno propio). He entregado **5 Shopify embedded apps**, **9+ AWS Lambdas**, **11+ servicios event-driven** y **6 themes Liquid** sobre un portafolio de storefronts Shopify relacionados — ver *Brands* abajo.
 
 En paralelo publico pequeñas utilidades open-source para problemas que yo mismo encuentro, y exploro game dev (Godot, Pygame), AI tooling (pipelines ComfyUI, LLMs locales) y ML/NLP (clasificación de CVs, detección de watermarks).
 
@@ -49,11 +49,25 @@ Creo en **software bien tipado, bien logueado, bien probado, que se entrega**.
 
 ---
 
+## Brands / Marcas
+
+<p align="center">
+  <a href="https://fiftyflowers.com"><img src="https://img.shields.io/badge/Fiftyflowers-D946EF?style=for-the-badge&logoColor=white" alt="Fiftyflowers" /></a>
+  <a href="https://farmexports.com"><img src="https://img.shields.io/badge/FarmExports-10B981?style=for-the-badge&logoColor=white" alt="Farm Exports" /></a>
+  <a href="https://theflowerfix.com"><img src="https://img.shields.io/badge/FlowerFix-EC4899?style=for-the-badge&logoColor=white" alt="FlowerFix" /></a>
+  <a href="https://theflowerceo.myshopify.com"><img src="https://img.shields.io/badge/TheFlowerCEO-F59E0B?style=for-the-badge&logoColor=white" alt="TheFlowerCEO" /></a>
+  <img src="https://img.shields.io/badge/BloomBrain-8B5CF6?style=for-the-badge&logoColor=white" alt="BloomBrain (internal platform)" />
+</p>
+
+<p align="center"><sub>Shopify-based floral commerce brands and the internal platform replacing their legacy systems · most repos under <a href="https://github.com/fifty-git">@fifty-git</a>.</sub></p>
+
+---
+
 ## Currently building / Trabajando actualmente en
 
-- **Bloom Brain platform** — modern internal PIM/OMS replacing Komet Sales for Farm Exports. **Bun · Hono · Prisma · PostgreSQL · Redis · BullMQ** — 30+ admin endpoints, 5 background queues, multi-tenant.
+- **Internal PIM/OMS platform** — modern replacement for a legacy floral-industry SaaS. **Bun · Hono · Prisma · PostgreSQL · Redis · BullMQ** — 30+ admin endpoints, 5 background queues, multi-tenant.
 - **Image sync pipeline** — 3000+ products with **template-matching + Tesseract OCR + Ollama GLM-OCR** watermark detection, **ComfyUI Flux2 Klein** AI logo removal on dual-GPU, EXIF correction, S3 + Shopify CDN sync (Pillow · ThreadPoolExecutor with 8 workers · Sharp).
-- **ML product matching engine** — 4-component hybrid scoring (TF-IDF + 56 category mappings + 38 color synonyms + grid-search-calibrated weights across 2,401 combinations) mapping 80+ farm SKUs to 1,200+ catalog SKUs (`scikit-learn` · `pandas`).
+- **ML product matching engine** — 4-component hybrid scoring (TF-IDF + 56 category mappings + 38 color synonyms + grid-search-calibrated weights across 2,401 combinations) mapping 80+ supplier SKUs to 1,200+ canonical catalog SKUs (`scikit-learn` · `pandas`).
 - **Open-source macOS utilities** — [`fe-image-transform-lite`](https://github.com/miguel50flowers/fe-image-transform-lite) (batch image transforms with live preview) and [`openvpn-mac-fix`](https://github.com/miguel50flowers/openvpn-mac-fix) (auto-restore internet after disconnecting from any of 17 VPN clients).
 
 ---
@@ -137,7 +151,7 @@ Stack: **Node 22.x** · **AWS SAM** + **Serverless Framework** · **API Gateway*
 <tr>
 <td width="50%" valign="top">
 
-### Bloom Brain B2B platform · 11 services
+### Distributed B2B platform · 11 services
 
 Event-driven microservices for B2B order fulfillment & claims:
 
@@ -156,7 +170,7 @@ Stack: **Bun** · **Hono** · **Drizzle ORM** · **MySQL + Redis** · **DDD/Clea
 
 CLI batch processor (Pillow · 8-worker ThreadPoolExecutor) → Lambda presigned-URL uploads → multi-strategy detection (template **NCC** + Tesseract OCR + **Ollama GLM-OCR**) → AI logo removal (**ComfyUI Flux2 Klein** on dual-GPU with primary/secondary host failover) → **RealESRGAN** 4x upscale → WebP @ q90 → Shopify CDN sync.
 
-Plus an **ML product-matching engine** (`scikit-learn` TF-IDF + 56 category mappings + 38 color synonyms + grid-search across 2,401 weight combinations) mapping 80+ farm SKUs to 1,200+ catalog SKUs.
+Plus an **ML product-matching engine** (`scikit-learn` TF-IDF + 56 category mappings + 38 color synonyms + grid-search across 2,401 weight combinations) mapping 80+ supplier SKUs to 1,200+ canonical catalog SKUs.
 
 Languages: **Python · TypeScript · Node**. Cloud: **S3 · Lambda · CloudWatch**.
 
@@ -164,7 +178,7 @@ Languages: **Python · TypeScript · Node**. Cloud: **S3 · Lambda · CloudWatch
 </tr>
 </table>
 
-> The bulk of my day-to-day work lives in private repos under [@fifty-git](https://github.com/fifty-git) (Shopify integrations, ETLs against QuickBooks/Komet/BackyardBrands, 6 Liquid themes including Farm Export & TheFlowerCEO with WCAG 2.1 AA + Theme Check 0 offenses, internal admin tooling). Happy to walk through architecture and code on request.
+> The bulk of my day-to-day work lives in private repos under [@fifty-git](https://github.com/fifty-git) (Shopify integrations, ETLs against accounting / supplier marketplaces / spreadsheet exports, 6 Liquid themes with WCAG 2.1 AA + Theme Check 0 offenses, internal admin tooling). Happy to walk through architecture and code on request.
 
 ---
 
