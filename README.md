@@ -12,6 +12,15 @@
   </a>
 </p>
 
+<p align="center">
+  <strong>You are on my <em>work</em> profile</strong> ·
+  <a href="https://github.com/MigelAngelEC">Personal projects → @MigelAngelEC</a>
+</p>
+<p align="center"><sub>
+  <a href="https://github.com/miguel50flowers">@miguel50flowers</a> = full-time engineering ·
+  <a href="https://github.com/MigelAngelEC">@MigelAngelEC</a> = side projects, iOS, open source
+</sub></p>
+
 ---
 
 ## About me / Sobre mí
@@ -28,7 +37,7 @@ I currently lead backend and image-pipeline work for a **B2B floral-wholesale pl
 
 On the side I publish small open-source utilities for problems I personally hit, and explore game dev (Godot, Pygame), AI tooling (ComfyUI pipelines, local LLMs) and ML/NLP (CV classification, watermark detection).
 
-I care about **well-typed, well-logged, well-tested software that ships**.
+I care about **well-typed, well-logged, well-tested software that ships**. Side projects, iOS apps and open-source experiments live on my personal profile [@MigelAngelEC](https://github.com/MigelAngelEC).
 
 </td>
 <td width="50%" valign="top">
@@ -41,7 +50,7 @@ Actualmente lidero backend y pipelines de imagen para una **plataforma B2B flora
 
 En paralelo publico pequeñas utilidades open-source para problemas que yo mismo encuentro, y exploro game dev (Godot, Pygame), AI tooling (pipelines ComfyUI, LLMs locales) y ML/NLP (clasificación de CVs, detección de watermarks).
 
-Creo en **software bien tipado, bien logueado, bien probado, que se entrega**.
+Creo en **software bien tipado, bien logueado, bien probado, que se entrega**. Side projects, apps iOS y experimentos open-source viven en mi perfil personal [@MigelAngelEC](https://github.com/MigelAngelEC).
 
 </td>
 </tr>
@@ -256,6 +265,10 @@ Languages: **Python · TypeScript · Node**. Cloud: **S3 · Lambda · CloudWatch
   <a href="https://x.com/MigelAngel_ec"><img src="https://img.shields.io/badge/Twitter-%40MigelAngel__ec-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter / X profile" /></a>
 </p>
 
-<p align="center"><sub>More links (Instagram, YouTube, Facebook, GitHub <code>@MigelAngelEC</code>) on <a href="https://www.maecly.com/">maecly.com</a>.</sub></p>
+<p align="center">
+  <a href="https://github.com/MigelAngelEC"><img src="https://img.shields.io/badge/GitHub-Personal%20%40MigelAngelEC-181717?style=for-the-badge&logo=github&logoColor=white" alt="Personal GitHub @MigelAngelEC" /></a>
+</p>
+
+<p align="center"><sub>More links (Instagram, YouTube, Facebook) on <a href="https://www.maecly.com/">maecly.com</a>.</sub></p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,2,20,30&height=80&section=footer" alt="Decorative footer wave" />
